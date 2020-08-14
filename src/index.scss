@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #05172e;
+  color: white;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+#container {
+  max-width: 900px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+  padding: 0 40px;
+}
+
+#biodata {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+#intro {
+  font-family: "Nunito Sans";
+  font-size: 0.9rem;
+  color: #b7b90e;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+#name {
+  font-family: "Open Sans";
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #b6bcc7;
+}
+#description {
+  font-family: "Nunito Sans";
+  font-size: 1rem;
+  max-width: 400px;
+  margin: 20px 0;
+  line-height: 1.5rem;
+  color: #90a1b3;
+}
+#get-in-touch-wrapper {
+  margin-top: 20px;
+  display: flex;
+  a {
+    border: 1px solid #b7b90e;
+    border-radius: 3px;
+    color:  #b7b90e;
+    padding: 10px;
+    transition: all 300ms ease;
+    &:hover {
+      background-color: #1a2f4d;
+    }
+  }
+}
