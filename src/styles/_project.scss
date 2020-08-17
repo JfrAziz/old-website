@@ -1,0 +1,100 @@
+#project-title {
+  font-size: 1.5rem;
+  font-family: "Lato";
+  color: #a8bbce;
+  border-bottom: 1px solid #07203f;
+  padding: 10px 0;
+}
+#project-container {
+  .project-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+      .project-info {
+        text-align: right;
+        direction: rtl;
+        .made-with, .project-link a {
+          margin-right: 0px !important;
+          margin-left: 10px;
+        }
+      }
+    }
+    .project-info {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      .project-name {
+        font-family: "Nunito Sans";
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 10px 0;
+        color: #b7b90e;
+      }
+      .project-description {
+        background-color: #07203f;
+        border-radius: 5px;
+        box-shadow: 2px 4px 4px #020d1b41;
+        padding: 20px;
+        margin: 10px 0;
+        width: 110%;
+        z-index: 1;
+        font-size: 0.9rem;
+        font-family: "Lato";
+        color: #a8bbce;
+        line-height: 1.2rem;
+        
+      }
+      .project-made-with {
+        font-family: "Lato";
+        margin: 10px 0; 
+        color: #717e8b;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        .made-with {
+          margin-right: 10px;
+        }
+      }
+      .project-link {
+        display: flex;
+        margin: 10px 0;
+        a {
+          display: flex;
+          padding: 10px;
+          background-color: #07203f;
+          border-radius: 50%;
+          color: #a8bbce;
+          margin-right: 10px;
+          transition: all 200ms ease;
+          &:hover {
+            background-color: #0a2e5a;
+          }
+        }
+      }
+    }
+    .project-image {
+      flex: 3;
+      display: flex;
+      position: relative;
+      img {
+        border-radius: 5px;
+        box-shadow: 2px 4px 4px #020d1b41;
+        width: 100%;
+      }
+      &:hover {
+        .image-filter {
+          opacity: 0;
+        }
+      }
+      .image-filter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #05172e;
+        opacity: 0.5;
+        transition: all 300ms ease;
+      }
+    }
+  }
+}

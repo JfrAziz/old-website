@@ -1,27 +1,9 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #05172e;
-  color: white;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-#container {
-  max-width: 900px;
-  margin: auto;
-  box-sizing: border-box;
-  font-family: "Nunito Sans";
-  padding: 0 40px;
-}
-
 #biodata {
   height: 100vh;
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  padding: 0 40px;
 }
 
 #intro {
@@ -49,6 +31,7 @@ a, a:visited {
 #get-in-touch-wrapper {
   margin-top: 20px;
   display: flex;
+  user-select: none;
   a {
     border: 1px solid #b7b90e;
     border-radius: 3px;
