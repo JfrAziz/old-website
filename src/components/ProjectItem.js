@@ -3,7 +3,7 @@ import tumbnail from "../images/tumbnail.png"
 import { FIGithub, FIExternalLink } from '../icons/Icon'
 
 const ProjectItem = ({item}) => {
-  const { name, description, repo, url, madeWith = [] } = item
+  const { name, description, repo, url, madeWith = [], image } = item
   return (
     <div className="project-item">
       <div className='project-info'>
@@ -23,7 +23,7 @@ const ProjectItem = ({item}) => {
       </div>
       <div className="project-image">
         <div className="image-filter"></div>
-        <img src={tumbnail} alt="project-img"/>
+        <img src={image} alt="project-img"/>
       </div>
     </div>
   )
