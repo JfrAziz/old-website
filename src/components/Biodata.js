@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Biodata = ({data}) => {
-  const { name, description } = data
+  const { name, description, photo } = data
   return (
     <div id="biodata">
       <div id="biodata-description">
@@ -21,7 +21,8 @@ const Biodata = ({data}) => {
         </div>
       </div>
       <div id="biodata-photo">
-
+        <div id="image-filter"></div>
+        <img src={photo} alt="biodata-img"/>
       </div>
     </div>
   )

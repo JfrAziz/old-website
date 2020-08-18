@@ -1,9 +1,8 @@
 import React from 'react'
-import tumbnail from "../images/tumbnail.png"
 import { FIGithub, FIExternalLink } from '../icons/Icon'
 
 const ProjectItem = ({item}) => {
-  const { name, description, repo, url, madeWith = [], image } = item
+  const { name, description, repo, url, madeWith = [], image } = item;
   return (
     <div className="project-item">
       <div className='project-info'>
