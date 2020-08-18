@@ -22,7 +22,7 @@ const ProjectItem = ({item}) => {
       </div>
       <div className="project-image">
         <div className="image-filter"></div>
-        <img src={image} alt="project-img"/>
+        <img src={image.default} alt="project-img"/>
       </div>
     </div>
   )

@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans&display=swap');
 @import "_biodata.scss";
 @import "_project.scss";
+@import "_article.scss";
+
+* {
+  --text-color : #b6bcc7;
+  --darker-text-color : #717e8b;
+  --lighter-text-color: #a8bbce;
+  --bg-color: #05172e;
+  --darker-color: #07203f;
+  --lighter-color : #0a2e5a;
+  --accent : #b7b90e;
+  --shadow : #020d1b41;
+}
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #05172e;
-  color: white;
+  background-color: var(--bg-color);
 }
 
 a, a:visited {

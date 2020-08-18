@@ -22,7 +22,7 @@ const Biodata = ({data}) => {
       </div>
       <div id="biodata-photo">
         <div id="image-filter"></div>
-        <img src={photo} alt="biodata-img"/>
+        <img src={photo.default} alt="biodata-img"/>
       </div>
     </div>
   )
