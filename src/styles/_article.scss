@@ -1,6 +1,6 @@
 #article {
   padding: 10px;
-  margin: 300px 0;
+  margin: 300px 0 100px;
 }
 
 #article-heading {
@@ -14,7 +14,7 @@
 
 #article-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 20px;
 }
 
@@ -31,11 +31,29 @@
   flex-direction: column;
   justify-content: space-between;
   transition: all 300ms ease;
+  padding: 20px;
   &:hover {
     transform: translateY(-10px);
   }
-  .top {
-    padding: 20px;
+  .article-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    svg {
+      display: flex;
+    }
+  }
+  .article-logo {
+    color: var(--accent);
+  }
+  a.read-more {
+    padding: 0 10px;
+    color: var(--darker-text-color);
+    transition: all 300ms ease;
+    &:hover {
+      color: var(--accent);
+    }
   }
   h3 {
     all: unset;
@@ -50,21 +68,6 @@
     color: var(--darker-text-color);
     padding: 20px 0;
   }
-  .read-more {
-    padding: 10px 0 0;
-    margin: 20px;
-    text-align: center;
-    a {
-      transition: all 300ms ease;
-      font-size: 0.7rem;
-      font-family: "Lato", sans-serif;
-      text-transform: uppercase;
-      color: var(--text-color);
-      &:hover {
-        color: var(--accent);
-      }
-    }
-  }
 }
 
 #check-blog {
@@ -76,7 +79,6 @@
     border: 1px solid var(--accent);
     border-radius: 5px;
     padding: 10px;
-    text-transform: uppercase;
     font-size: 0.8rem;
     font-family: "Lato", sans-serif;
     transition: all 300ms ease;

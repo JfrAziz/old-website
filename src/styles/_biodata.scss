@@ -15,7 +15,7 @@
   font-family: "Lato", sans-serif;
   font-size: 0.9rem;
   color: var(--accent);
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 }
 #name {
   font-family: "Nunito Sans", sans-serif;
@@ -28,7 +28,7 @@
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   max-width: 400px;
-  margin: 20px 0;
+  margin: 10px 0;
   line-height: 1.5rem;
   color: var(--darker-text-color);
 }
@@ -40,7 +40,9 @@
     border: 1px solid var(--accent);
     border-radius: 3px;
     color:  var(--accent);
-    padding: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 10px 20px;
     transition: all 300ms ease;
     &:hover {
       background-color: var(--darker-color);

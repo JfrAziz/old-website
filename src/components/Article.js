@@ -14,7 +14,7 @@ const Article = ({data}) => {
       {
         blog && (
           <div id="check-blog">
-            <a href={blog}>View more on my blog</a>
+            <a href={blog}>VIEW MORE ON MY BLOG</a>
           </div>
         )
       }

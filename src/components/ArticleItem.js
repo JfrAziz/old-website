@@ -1,18 +1,24 @@
 import React from 'react'
+import { FIBookmark, FIExternalLink } from '../icons/Icon'
 
 const ArticleItem = ({item}) => {
   const { title, excerpt, url } = item
   return (
     <div className="article-item">
       <div className="article-wrapper">
-        <div className="top">
+        <div className="article-button">
+          <div className="article-logo">
+            <FIBookmark size={40} strokeWidth={1}/>
+          </div>
+          <a className="read-more" href={url}>
+            <FIExternalLink size={24} strokeWidth={1}/>
+          </a>    
+        </div>
+        <div className="article-desc">
           <h3>{title}</h3>
           <div className="article-excerpt">
             <span>{excerpt}</span>
           </div>
-        </div>
-        <div className="read-more">
-          <a href={url}>Read More</a>
         </div>
       </div>
     </div>
