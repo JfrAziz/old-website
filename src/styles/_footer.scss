@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 0.8rem;
+  margin: 40px 0 20px;
+  font-family: "Nunito Sans", sans-serif;
+  a {
+    color: var(--accent);
+    transition: all 300ms ease;
+    &:hover {
+      color: var(--darker-text-color)
+    }
+  }
+}

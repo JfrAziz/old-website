@@ -11,7 +11,9 @@ const ArticleItem = ({item}) => {
             <span>{excerpt}</span>
           </div>
         </div>
-        <a className="read-more" href={url}>Read More</a>
+        <div className="read-more">
+          <a href={url}>Read More</a>
+        </div>
       </div>
     </div>
   )
