@@ -16,30 +16,6 @@ const data = {
         "Node js"
       ]
     },
-    {
-      name : "Markdown Editor",
-      description: "Simple realtime markdown editor. You can see what you write on markdown. Made with React JS, marked, and Ace as code editor",
-      repo : "https://github.com/JfrAziz/markdown-editor",
-      url : "https://markdown.jafaraziz.com",
-      image: require("./images/tumbnail.png"),
-      madeWith : [
-        "React js",
-        "Webpack",
-        "Node js"
-      ]
-    },
-    {
-      name : "Markdown Editor",
-      description: "Simple realtime markdown editor. You can see what you write on markdown. Made with React JS, marked, and Ace as code editor",
-      repo : "https://github.com/JfrAziz/markdown-editor",
-      url : "https://markdown.jafaraziz.com",
-      image: require("./images/tumbnail.png"),
-      madeWith : [
-        "React js",
-        "Webpack",
-        "Node js"
-      ]
-    },
   ],
   article: [
     {
@@ -51,12 +27,7 @@ const data = {
       title : "Menginstall React js Dengan webpack",
       excerpt: "Setup project react js dengan webpack",
       url : "https://blog.jafaraziz.com/post/menginstall-react-js-dengan-webpack",
-    },
-    {
-      title : "Menginstall React js Dengan webpack",
-      excerpt: "Setup project react js dengan webpack",
-      url : "https://blog.jafaraziz.com/post/menginstall-react-js-dengan-webpack",
-    },
+    }
   ]
 }
 

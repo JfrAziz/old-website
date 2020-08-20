@@ -55,19 +55,23 @@
       color: var(--accent);
     }
   }
-  h3 {
-    all: unset;
-    color: var(--lighter-text-color);
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: "Nunito Sans", sans-serif;
+  .article-desc {
+    padding: 0 8px;
+    h3 {
+      all: unset;
+      color: var(--lighter-text-color);
+      font-weight: bold;
+      font-size: 1rem;
+      font-family: "Nunito Sans", sans-serif;
+    }
+    .article-excerpt {
+      font-family: "Lato", sans-serif;
+      font-size: 0.9rem;
+      color: var(--darker-text-color);
+      padding: 20px 0;
+    }
   }
-  .article-excerpt {
-    font-family: "Lato", sans-serif;
-    font-size: 0.9rem;
-    color: var(--darker-text-color);
-    padding: 20px 0;
-  }
+  
 }
 
 #check-blog {
