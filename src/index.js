@@ -6,6 +6,7 @@ import Biodata from './components/Biodata'
 import Project from './components/Project'
 import Article from './components/Article'
 import Footer from './components/Footer'
+import SocialLink from './components/SocialLink'
 import "./styles/_index.scss"
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Biodata data={data}/>
       <Project data={data}/>
       <Article data={data}/>
+      <SocialLink/>
       <Footer/>
     </div>
   )
