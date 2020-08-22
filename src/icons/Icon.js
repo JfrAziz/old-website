@@ -40,13 +40,13 @@ const FITwitter = (props) => (
   </Icons>
 );
 
-const FIBookmark = (props) => (
+const FIBook = (props) => (
   <Icons {...props}>
-    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>  
+    <path d="M17.3333 22L9.16667 16.1667L1 22V3.33333C1 2.71449 1.24583 2.121 1.68342 1.68342C2.121 1.24583 2.71449 1 3.33333 1H15C15.6188 1 16.2123 1.24583 16.6499 1.68342C17.0875 2.121 17.3333 2.71449 17.3333 3.33333V22Z"/>
   </Icons>
 );
 
 export { FIExternalLink };
 export { FIGithub };
 export { FITwitter };
-export { FIBookmark }
+export { FIBook }

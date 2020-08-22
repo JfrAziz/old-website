@@ -1,5 +1,5 @@
 import React from 'react'
-import { FIBookmark, FIExternalLink } from '../icons/Icon'
+import { FIBook, FIExternalLink } from '../icons/Icon'
 
 const ArticleItem = ({item}) => {
   const { title, excerpt, url } = item
@@ -8,7 +8,7 @@ const ArticleItem = ({item}) => {
       <div className="article-wrapper">
         <div className="article-button">
           <div className="article-logo">
-            <FIBookmark size={40} strokeWidth={1}/>
+            <FIBook size={40} strokeWidth={1}/>
           </div>
           <a className="read-more" href={url}>
             <FIExternalLink size={24} strokeWidth={1}/>
