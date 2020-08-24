@@ -56,13 +56,15 @@
     }
   }
   .article-desc {
-    // padding: 0 8px;
+    flex: 1;
     h3 {
       all: unset;
-      color: var(--lighter-text-color);
-      font-weight: bold;
-      font-size: 1rem;
-      font-family: "Nunito Sans", sans-serif;
+      a {
+        color: var(--lighter-text-color);
+        font-weight: bold;
+        font-size: 1rem;
+        font-family: "Nunito Sans", sans-serif;
+      }
     }
     .article-excerpt {
       font-family: "Lato", sans-serif;

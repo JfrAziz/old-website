@@ -15,7 +15,7 @@ const ArticleItem = ({item}) => {
           </a>    
         </div>
         <div className="article-desc">
-          <h3>{title}</h3>
+          <h3><a href={url}>{title}</a></h3>
           <div className="article-excerpt">
             <span>{excerpt}</span>
           </div>

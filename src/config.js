@@ -32,14 +32,19 @@ const data = {
   ],
   article: [
     {
+      title : "How To Setup Webpack And React JS",
+      excerpt: "Setup a React JS Project with webpack manually, without create-react-app.",
+      url : "https://blog.jafaraziz.com/post/How-To-Setup-Webpack-And-React-JS",
+    },
+    {
+      title : "Make Header Appear When Scroll Up React JS",
+      excerpt: "Make header appear when page scroll up and hidden when scroll down.",
+      url : "https://blog.jafaraziz.com/post/Make-Header-Appear-When-Scroll-Up-React-JS",
+    },
+    {
       title : "Markdown Blog Menggunakan Gatsby.js",
       excerpt: "Membuat blog menggunakan markdown dengan gatsby js.",
       url : "https://blog.jafaraziz.com/post/Markdown-blog-menggunakan-gatsby-js",
-    },
-    {
-      title : "Menginstall React js Dengan webpack",
-      excerpt: "Setup project react js dengan webpack",
-      url : "https://blog.jafaraziz.com/post/menginstall-react-js-dengan-webpack",
     }
   ]
 }

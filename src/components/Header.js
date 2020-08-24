@@ -17,7 +17,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleHeader)
     }
-  }, [visible, prevScrollPos])
+  }, [prevScrollPos])
 
   return (
     <header className={[visible ? "header-visible" : "", pageYOffset ? "header-not-top" : ""].join(' ')}>
