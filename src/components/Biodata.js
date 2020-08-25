@@ -4,7 +4,7 @@ const Biodata = ({data}) => {
   const { name, description, photo } = data
   return (
     <div id="biodata">
-      <div id="biodata-description">
+      <div id="biodata-description" data-aos="fade-right" data-aos-duration="1000">
         <div id="intro">
           Hi, i am
           </div>
@@ -20,7 +20,7 @@ const Biodata = ({data}) => {
             </a>
         </div>
       </div>
-      <div id="biodata-photo">
+      <div id="biodata-photo" data-aos="fade-left" data-aos-duration="1000">
         <div id="image-filter"></div>
         <img src={photo.default} alt="biodata-img"/>
       </div>

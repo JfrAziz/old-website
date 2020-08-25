@@ -4,7 +4,7 @@ import { FIGithub, FIExternalLink } from '../icons/Icon'
 const ProjectItem = ({item}) => {
   const { name, description, repo, url, madeWith = [], image } = item;
   return (
-    <div className="project-item">
+    <div className="project-item" data-aos="fade-up">
       <div className='project-info'>
         <div className="project-name">{name}</div>
         <div className="project-description">{description}</div>

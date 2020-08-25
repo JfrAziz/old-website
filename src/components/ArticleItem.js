@@ -4,7 +4,7 @@ import { FIBook, FIExternalLink } from '../icons/Icon'
 const ArticleItem = ({item}) => {
   const { title, excerpt, url } = item
   return (
-    <div className="article-item">
+    <div className="article-item" data-aos="fade-up">
       <div className="article-wrapper">
         <div className="article-button">
           <div className="article-logo">
