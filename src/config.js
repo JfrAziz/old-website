@@ -42,6 +42,16 @@ const data = {
       url : "https://blog.jafaraziz.com/post/Make-Header-Appear-When-Scroll-Up-React-JS",
     },
     {
+      title : "Make Simple Modal React Js",
+      excerpt: "In this post, I will show you how to make a simple modal in react js. The modal I make can be closed by click in outside modal and/or in close button.",
+      url : "https://blog.jafaraziz.com/post/Make-Simple-Modal-React-JS",
+    },
+    {
+      title : "Menginstall React js Dengan webpack",
+      excerpt: "Setup project react js dengan webpack",
+      url : "https://blog.jafaraziz.com/post/menginstall-react-js-dengan-webpack",
+    },
+    {
       title : "Markdown Blog Menggunakan Gatsby.js",
       excerpt: "Membuat blog menggunakan markdown dengan gatsby js.",
       url : "https://blog.jafaraziz.com/post/Markdown-blog-menggunakan-gatsby-js",
